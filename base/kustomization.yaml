@@ -5,6 +5,9 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
+- name: hello-gitops
+  newName: docker.io/girisagar46/hello-gitops
+  newTag: 98408f0a57c16bdb068a0d5df9893cd731b95699
 - name: hello-gitops-app
   newName: docker.io/ooocamel/hello-gitops
   newTag: e8d7e7287928e458f0976ea777094206f5020bb5
