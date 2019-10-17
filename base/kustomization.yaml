@@ -7,7 +7,7 @@ resources:
 images:
 - name: hello-gitops
   newName: docker.io/girisagar46/hello-gitops
-  newTag: 98408f0a57c16bdb068a0d5df9893cd731b95699
+  newTag: 0f5b6cabfda41fa5e7a8b53e5f0fe261fb8729eb
 - name: hello-gitops-app
   newName: docker.io/ooocamel/hello-gitops
   newTag: e8d7e7287928e458f0976ea777094206f5020bb5
